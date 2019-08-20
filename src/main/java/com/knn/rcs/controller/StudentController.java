@@ -13,10 +13,10 @@ public class StudentController {
     private static final String template = "Hello, %s!";
     private final AtomicLong counter = new AtomicLong();
 
-    @RequestMapping("/hello")
-    public Student hello(@RequestParam(value = "name", defaultValue = "World")String name) {
-        return new Student(counter.incrementAndGet(),
-                String.format(template, name));
-
-    }
+//    @RequestMapping("/hello")
+//    public Student hello(@RequestParam(value = "name", defaultValue = "World")String name) {
+//        return new Student(counter.incrementAndGet(),
+//                String.format(template, name));
+//
+//    }
 }

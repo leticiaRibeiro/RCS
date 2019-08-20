@@ -11,17 +11,6 @@ public class Student {
     private Long id;
     private String name;
 
-    public Student() { }
-
-    public Student(String name) {
-        this.name = name;
-    }
-
-    public Student(Long id, String nome) {
-        this.name = nome;
-        this.id = id;
-    }
-
     public Long getId() {
         return id;
     }
